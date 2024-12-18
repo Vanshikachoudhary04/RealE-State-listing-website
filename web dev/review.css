@@ -1,0 +1,188 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+header nav ul li a {
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    background-color: #f39c12;
+    border-radius: 5px;
+}
+
+/* Reviews Section */
+.reviews-section {
+    background-color: #fff;
+    padding: 40px 0;
+    margin-top: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reviews-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.reviews-section p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.review {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.review-header h2 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.rating {
+    font-size: 1.2em;
+    color: #f39c12;
+}
+
+.review-text {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.review p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Add New Review Section */
+.add-review {
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.add-review h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.btn-submit {
+    padding: 12px 20px;
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #e67e22;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .reviews-section h1 {
+        font-size: 2em;
+    }
+
+    .review-header h2 {
+        font-size: 1.5em;
+    }
+
+    .review-text {
+        font-size: 1em;
+    }
+
+    .add-review h2 {
+        font-size: 1.8em;
+    }
+
+    .form-group input,
+    .form-group select,
+   
